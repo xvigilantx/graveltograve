@@ -770,7 +770,7 @@
         <div class="section" id="register">
             <h2 class="section-title">GET ON THE LIST</h2>
             <div class="contact-form">
-                <form>
+                <form action="https://formspree.io/f/mvzzrlwo" method="POST">
                     <div class="form-group">
                         <label for="name">NAME</label>
                         <input type="text" id="name" name="name" required placeholder="Your name">
@@ -812,13 +812,6 @@
                     });
                 }
             });
-        });
-
-        // Form submission handling
-        document.querySelector('form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('HELL YEAH! We\'ll hit you up with details soon.');
-            this.reset();
         });
     </script>
 </body>
